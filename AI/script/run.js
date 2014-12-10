@@ -2,6 +2,7 @@ alert("loaded: No errors")
 var ai =[];
 var fallback ="/";
 var msg =["Hacking Server", "Loading Data", ":-- Loading"]
+setInterval("Run", "3000");
 function Run(){
 var rnd = Math.floor(Math.random()*5);
 ai[0] = document.createElement('h5');
