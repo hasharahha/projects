@@ -1,3 +1,4 @@
+alert("loaded: No errors")
 var ai ={};
 var fallback ="/";
 
