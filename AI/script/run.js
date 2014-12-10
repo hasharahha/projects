@@ -1,19 +1,12 @@
 alert("loaded: No errors")
 var ai =[];
 var fallback ="/";
-
+var msg =["Hacking Server", "Loading Data", ":-- Loading"]
 function Run(){
-ai[0] = document.createElement('h2');
-ai[0].setAttribute("style", "color: blue;");
-ai[1] = document.createElement('input');
-ai[1].setAttribute("style", "width: 500px; height: 100px; font-size: 80px; color: white; background-color: black;");
-ai[1].setAttribute("id", "commandprompt");
-ai[2] = document.createElement('button');
-ai[2].setAttribute("innerHTML", "Call command");
-ai[2].setAttribute("onclick", "Call()");
-ai[2].setAttribute("style", "height: 100px; width: 200px; background-color: green; color; white");
-ai[2].setAttribute("type", "button")
+var rnd = Math.floor(Math.random()*5);
+ai[0] = document.createElement('h5');
+ai[0].setAttribute("innerHTML", msg[rnd]);
 document.body.appendChild(ai[0]);
-document.body.appendChild(ai[1]);
-document.body.appendChild(ai[2]);
+
+
 }
