@@ -11,6 +11,7 @@ ai[1].setAttribute("id", "commandprompt");
 ai[2] = document.createElement('button');
 ai[2].setAttribute("innerHTML", "Call command");
 ai[2].setAttribute("onclick", "Call()");
+ai[2].setAttribute("style", "height: 100px; width: 200px; background-color: green; color; white");
 ai[2].setAttribute("type", "button")
 document.body.appendChild(ai[0]);
 document.body.appendChild(ai[1]);
