@@ -1,4 +1,2 @@
-projects
-========
-
-A resporitory full of different projects i d
+#Projects
+##Just contains various projects i will do for fun
